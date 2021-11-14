@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <title>4th sunday Test</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+            background-color: rgb(222, 231, 235);
+            display: block;
+            text-align: center;
+            align-items: center;
+           
+        }
+        #container{
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+               
+            
+        }
+        #container #font{
+            font-family: 'Fleur De Leah', cursive;
+            color: rgb(233, 170, 10);
+            font-size: 60px;
+        }
+        #one{
+            background-color: white;
+            width:500px;
+            height: 50px;
+            margin: 20px;
+            box-shadow:0 0 10px  rgb(221, 133, 221);
+            border-radius: 8px;
+            display:flex;
+            align-items: center;
+         
+            padding:5px;
+          
+            
+            
+        }
+        #btn1, #btn2 ,#btn3{
+            color: rgb(233, 170, 10);
+            border: 2px solid rgb(233, 170, 10);
+            font-size: 20px;
+            margin: 100px;
+            width:25px;
+            height: 18px;
+          
+           
+          
+           
+
+        }
+        #two{
+            background-color: white;
+            width:500px;
+            height: 50px;
+            margin: 20px;
+            box-shadow:0 0 10px  rgb(221, 133, 221);
+            border-radius: 8px;
+            display:flex;
+            align-items: center;
+         
+            padding:5px;
+        }
+        #three{
+            background-color: white;
+            width:500px;
+            height: 50px;
+            margin: 20px;
+            box-shadow:0 0 10px  rgb(221, 133, 221);
+            border-radius: 8px;
+            display:flex;
+            align-items: center;
+         
+            padding:5px;
+        }
+        #oneone{
+            
+            width:500px;
+            text-align: left;
+            font-family: 'Fleur De Leah', cursive;
+            font-family: 'Yuji Syuku', serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p id="font">General Questions</p>
+        <div id="one">
+            <div id="oneone" ><p id ="pRef1">Do you Accept All Major Credit Cards?</p></div>
+            <div  id="btn1" onclick="firstAnswer()">+</div>
+        </div>
+        <div id="two">
+            <div id="oneone"><p id ="pRef2">Do You Support Local Farmers?</p></div>
+            <div  id="btn2" onclick="secondAnswer()">+</div>
+        </div>
+        <div id="three">
+            <div id="oneone"><p id ="pRef3">Do you use Organic ingredients</p></div>
+            <div  id="btn3" onclick="thirdAnswer()">+</div>
+        </div>
+    </div>
+    <script>
+        function firstAnswer(){
+            var PRef1 = document.getElementById("pRef1");
+            PRef1.innerText =" Ans:- Yes I accept all mejor Credits Card ";
+
+        }
+        function secondAnswer(){
+            var PRef1 = document.getElementById("pRef2");
+            PRef1.innerText =" Ans:- Yes I accept all mejor Credits Card ";
+
+        }
+        function thirdAnswer(){
+            var PRef1 = document.getElementById("pRef3");
+            PRef1.innerText =" Ans:- Yes I accept all mejor Credits Card ";
+
+        }
+    </script>
+</body>
+</html>
